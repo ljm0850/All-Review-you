@@ -35,8 +35,8 @@
         </button>
       </h2>
       <div v-if='isFollowList'>
-    <FollowItem v-for="(followuser,index) in followlist"
-    :key="index"
+    <FollowItem v-for="(followuser) in followlist"
+    :key="followuser"
     :followuser="followuser"/>
   </div>
     </div>
@@ -50,8 +50,8 @@
         </button>
       </h2>
       <div v-if='isFollowList'>
-    <FollowingItem v-for="(followuser,index) in followinglist"
-    :key="index"
+    <FollowingItem v-for="(followuser) in followinglist"
+    :key="followuser"
     :followuser="followuser"/>
   </div>
     </div>
