@@ -1,0 +1,250 @@
+[
+{
+    "model": "reviews.review",
+    "pk": 2,
+    "fields": {
+        "user": 9,
+        "movie": 5,
+        "title": "ㅋㅋ 아직도",
+        "content": "안봄?",
+        "created_at": "2022-05-25T18:04:46.121",
+        "updated_at": "2022-05-26T06:48:33.557",
+        "point": 5,
+        "like_users": [
+            1,
+            2,
+            12
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "movie": 54,
+        "title": "리뷰 만들기",
+        "content": "계속",
+        "created_at": "2022-05-25T18:11:11.254",
+        "updated_at": "2022-05-26T06:52:38.348",
+        "point": 2,
+        "like_users": [
+            1,
+            2,
+            12
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 8,
+    "fields": {
+        "user": 1,
+        "movie": 10,
+        "title": "리뷰는 언제까지",
+        "content": "만들까?",
+        "created_at": "2022-05-25T18:11:29.831",
+        "updated_at": "2022-05-26T06:52:18.284",
+        "point": 2,
+        "like_users": [
+            2,
+            12
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 9,
+    "fields": {
+        "user": 1,
+        "movie": 37,
+        "title": "이 영화",
+        "content": "강추",
+        "created_at": "2022-05-25T18:11:49.384",
+        "updated_at": "2022-05-25T18:12:56.208",
+        "point": 1,
+        "like_users": [
+            2
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 10,
+    "fields": {
+        "user": 1,
+        "movie": 59,
+        "title": "영화는",
+        "content": "영화다2",
+        "created_at": "2022-05-25T18:12:06.600",
+        "updated_at": "2022-05-25T18:14:56.386",
+        "point": 3,
+        "like_users": [
+            2
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 11,
+    "fields": {
+        "user": 12,
+        "movie": 37,
+        "title": "어벤져스 봄?",
+        "content": "난 안봄",
+        "created_at": "2022-05-26T06:28:56.589",
+        "updated_at": "2022-05-26T06:28:56.589",
+        "point": 1,
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 12,
+    "fields": {
+        "user": 12,
+        "movie": 59,
+        "title": "동물사전이 뭐임?",
+        "content": "도감?",
+        "created_at": "2022-05-26T06:53:14.430",
+        "updated_at": "2022-05-26T06:53:14.430",
+        "point": 2,
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 13,
+    "fields": {
+        "user": 12,
+        "movie": 19,
+        "title": "투게더",
+        "content": "올리브유",
+        "created_at": "2022-05-26T06:53:38.028",
+        "updated_at": "2022-05-26T06:53:38.028",
+        "point": 1,
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 2,
+    "fields": {
+        "review": 11,
+        "user": 12,
+        "content": "내 글에 댓글좀 달아줘",
+        "created_at": "2022-05-26T06:30:28.836",
+        "updated_at": "2022-05-26T06:30:28.836"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 5,
+    "fields": {
+        "review": 2,
+        "user": 1,
+        "content": "달기",
+        "created_at": "2022-05-26T06:43:05.699",
+        "updated_at": "2022-05-26T06:43:05.699"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 6,
+    "fields": {
+        "review": 2,
+        "user": 1,
+        "content": "달기매우",
+        "created_at": "2022-05-26T06:43:07.463",
+        "updated_at": "2022-05-26T06:43:07.463"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 7,
+    "fields": {
+        "review": 2,
+        "user": 1,
+        "content": "달기매우달다",
+        "created_at": "2022-05-26T06:43:08.383",
+        "updated_at": "2022-05-26T06:43:08.383"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 8,
+    "fields": {
+        "review": 8,
+        "user": 12,
+        "content": "sd",
+        "created_at": "2022-05-26T06:52:03.635",
+        "updated_at": "2022-05-26T06:52:03.635"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 9,
+    "fields": {
+        "review": 8,
+        "user": 12,
+        "content": "sddf",
+        "created_at": "2022-05-26T06:52:05.195",
+        "updated_at": "2022-05-26T06:52:05.195"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 10,
+    "fields": {
+        "review": 8,
+        "user": 12,
+        "content": "sddfsdf",
+        "created_at": "2022-05-26T06:52:07.186",
+        "updated_at": "2022-05-26T06:52:07.186"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 11,
+    "fields": {
+        "review": 8,
+        "user": 12,
+        "content": "sddfsdfsdf",
+        "created_at": "2022-05-26T06:52:09.417",
+        "updated_at": "2022-05-26T06:52:09.417"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 12,
+    "fields": {
+        "review": 8,
+        "user": 12,
+        "content": "sddfsdfsdfdf",
+        "created_at": "2022-05-26T06:52:12.883",
+        "updated_at": "2022-05-26T06:52:12.883"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 13,
+    "fields": {
+        "review": 8,
+        "user": 12,
+        "content": "sddfsdfsdfdfdf",
+        "created_at": "2022-05-26T06:52:14.473",
+        "updated_at": "2022-05-26T06:52:14.473"
+    }
+},
+{
+    "model": "reviews.comment",
+    "pk": 14,
+    "fields": {
+        "review": 13,
+        "user": 12,
+        "content": "올리브유는 굽기용이야",
+        "created_at": "2022-05-26T06:53:52.957",
+        "updated_at": "2022-05-26T06:53:52.957"
+    }
+}
+]
