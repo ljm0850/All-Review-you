@@ -64,11 +64,11 @@
 
 - ERD
 
-![](../final-pjt/images/model diagram.png)
+![](../final-pjt/images/model.png)
 
 - VUEX and Vue
 
-![](../final-pjt/images/vue diagram.png)
+![](../final-pjt/images/vue.png)
 
 
 
