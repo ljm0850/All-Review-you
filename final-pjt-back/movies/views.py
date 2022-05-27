@@ -16,7 +16,7 @@ def setmovie(request):
     if request.user.is_superuser :
         page = request.data.get("page")
 
-        SET_PARAM = {'api_key' : 'ea7d9cdc4bf52e1cef1da35e207d3eee', 'language' : 'ko', 'region' : 'KR', "page" : page}
+        SET_PARAM = {'api_key' : '키를 입력해 주세요', 'language' : 'ko', 'region' : 'KR', "page" : page}
         temp = requests.get('https://api.themoviedb.org/3/movie/popular', params = SET_PARAM)
         mov = temp.json()
 
