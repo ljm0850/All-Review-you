@@ -1,3 +1,5 @@
+- https://www.youtube.com/watch?v=fZ2TmhiEkq0
+
 # 1. 팀원 정보 및 업무 분담 내역
 
 ### 조장 : 이재민
