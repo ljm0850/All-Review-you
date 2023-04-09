@@ -1,4 +1,5 @@
-- https://www.youtube.com/watch?v=fZ2TmhiEkq0
+- UCC : https://www.youtube.com/watch?v=fZ2TmhiEkq0
+- 추가 후기 : https://ljm0850.tistory.com/75
 
 # 1. 팀원 정보 및 업무 분담 내역
 
